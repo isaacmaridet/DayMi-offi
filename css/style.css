@@ -10006,6 +10006,7 @@ a, img {
 		float: left;
 		width: 23.95%;
 	}
+
 }
 
 /* -------------------------------------------------- 
@@ -10824,3 +10825,28 @@ color: #1C1C1C;
 .feature-box:hover{
 	background-color: #FFA51F;
 }
+.download .img-fluid{
+	margin-bottom: 10px;
+}
+
+.btn-custom{
+		visibility : hidden;
+	}
+	@media(min-width:980px) {
+		.btn-custom {
+			visibility: visible;
+		}
+	}
+
+	.p-title {
+		font-size: larger;
+		font-size: 1.6em;
+
+	}
+	@media(min-width:980px) {
+		.p-title {
+			font-size: larger;
+			font-size: auto;
+	
+		}
+	}
