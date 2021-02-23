@@ -10831,6 +10831,7 @@ color: #1C1C1C;
 
 .btn-custom{
 		visibility : hidden;
+		margin-left: -90px;
 	}
 	@media(min-width:980px) {
 		.btn-custom {
@@ -10840,7 +10841,7 @@ color: #1C1C1C;
 
 	.p-title {
 		font-size: larger;
-		font-size: 1.6em;
+		font-size: 1.5em;
 
 	}
 	@media(min-width:980px) {
