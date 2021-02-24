@@ -2144,7 +2144,7 @@ a.btn-text-light {
 a.btn-custom, .btn-custom, a.btn-slider, .btn-slider {
 	font-family: "Inter";
 	font-size: 12px;
-	min-width: 120px;
+
 }
 a.btn-custom,a.btn-custom:active,a.btn-custom:focus,a.btn-custom:visited,
 .btn-custom {
@@ -2162,7 +2162,7 @@ a.btn-custom,a.btn-custom:active,a.btn-custom:focus,a.btn-custom:visited,
 	letter-spacing: 2px;
 }
 header a.btn-custom{
-	padding:2px 20px !important;
+	padding:5px 20px !important;
 }
 .col-right a.btn-custom{
 	font-size:14px;
@@ -2251,7 +2251,6 @@ a.btn-link{
 	-webkit-border-radius: 60px;
 	color: #fff;
 	text-decoration: none;
-	border: solid 5px rgba(255, 255, 255, .3);
 	display: inline-block;
 	text-align: center;
 	width: 80px;
@@ -2285,7 +2284,6 @@ a.btn-link{
 	-webkit-border-radius: 60px;
 	color: #fff;
 	text-decoration: none;
-	border: solid 5px rgba(255, 255, 255, .3);
 	display: inline-block;
 	text-align: center;
 	width: 80px;
@@ -10872,3 +10870,166 @@ header.header-mobile.header-light #menu-btn {
 				margin-right: 120px;;
 			}
 		}
+
+		#contact_form{
+			text-emphasis-color: #1C1C1C;
+			color: black;
+		}
+
+		@import url(https://fonts.googleapis.com/css?family=Merriweather);
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  background: #f1f1f1;
+  font-family: 'Merriweather', sans-serif;
+  padding: 1em;
+}
+
+h1 {
+  text-align: center;
+  color: #a8a8a8;
+  text-shadow: 1px 1px 0 white;
+}
+
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+form input, form textarea {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: 'Merriweather', sans-serif;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+form input:focus, form textarea:focus {
+  -moz-box-shadow: 0 0px 2px #e74c3c !important;
+  -webkit-box-shadow: 0 0px 2px #e74c3c !important;
+  box-shadow: 0 0px 2px #e74c3c !important;
+}
+form #input-submit {
+  color: white;
+  background: #e74c3c;
+  cursor: pointer;
+}
+form #input-submit:hover {
+  -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+}
+form textarea {
+  height: 126px;
+}
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right {
+  width: 50%;
+}
+
+.left {
+  margin-right: 2%;
+}
+
+@media (max-width: 480px) {
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
+/* Clearfix */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+body {
+	background: #f1f1f1;
+	font-family: "Roboto", sans-serif;
+}
+
+.contact-form {
+	font-family: 16px;
+	margin: 0 auto;
+	max-width: 600px;
+	width: 100%;
+}
+
+.contact-form .separator {
+	margin-bottom: 15px;
+}
+
+.contact-form .form {
+	display: flex;
+	flex-direction: column;
+	font-size: 16px;
+}
+
+.contact-form_title {
+	color: #333;
+	text-align: left;
+	font-size: 28px;
+}
+
+.contact-form input[type="email"],
+.contact-form input[type="text"],
+.contact-form textarea {
+	font-family: "Roboto", sans-serif;
+	padding: 10px 7px;
+	margin-bottom: 15px;
+	outline: none;
+}
+
+.contact-form textarea {
+	resize: none;
+}
+
+.contact-form .button {
+	color: white;
+	cursor: pointer;
+	padding: 10px 50px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+.contact-form input[type="email"],
+.contact-form input[type="text"],
+.contact-form textarea,
+.contact-form .button {
+	font-size: 15px;
+}
+
+
+.button{
+	background-color: #FFA51F !important;
+
+}
