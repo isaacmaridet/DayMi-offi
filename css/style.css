@@ -11059,3 +11059,9 @@ header.header-mobile.header-light #menu-btn {
 		background-color: #FFA51F !important;
 	
 	}
+
+@media (min-width: 980px){
+.button {
+    background-color: #FFA51F !important;
+    border: none;
+}
